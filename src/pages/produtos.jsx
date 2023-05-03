@@ -1,12 +1,18 @@
 import Menu from "./menu"
+import Footer from "../interpolacao/footer"
+import Produto from "../interpolacao/lista-produtos"
 import "../css/style.css"
 
 function Produtos(){
     return(
-        <header className="header">
-            <h1 className="title">Floricultura</h1>
-            <Menu/>
-        </header>
+        <div>
+            <header className="header">
+                <h1 className="title">Floricultura</h1>
+                <Menu/>
+            </header>
+            <Produto/>
+            {/* <Footer/> */}
+        </div>
     )
 
 }

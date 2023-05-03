@@ -7,7 +7,7 @@ function Footer() {
   const youtube = "https://cdn.discordapp.com/attachments/1021540396381261985/1100205778712920084/youtube.png"
 
 return (
-  <div>
+  <div className="background-footer">
     <footer className="footer">
       <div className="footer-nome">
         <h2 className="footer-nome-title">Floricultura</h2>

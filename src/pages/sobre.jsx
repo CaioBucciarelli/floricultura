@@ -1,12 +1,18 @@
 import Menu from "./menu"
+import Footer from "../interpolacao/footer"
+import SobreContent from "../interpolacao/content-sobre"
 import "../css/style.css"
 
 function Sobre(){
     return(
-        <header className="header">
-            <h1 className="title">Floricultura</h1>
-            <Menu/>
-        </header>
+        <div>
+            <header className="header">
+                <h1 className="title">Floricultura</h1>
+                <Menu/>
+            </header>
+            <SobreContent/>
+            <Footer/>
+        </div>
     )
 
 }

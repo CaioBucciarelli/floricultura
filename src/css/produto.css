@@ -1,0 +1,14 @@
+.produto {
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    background: #ccc;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.img-produto {
+    width: 200px;
+    height: 200px   ;
+}
