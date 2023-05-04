@@ -11,7 +11,7 @@ function Produtos(){
                 <Menu/>
             </header>
             <Produto/>
-            {/* <Footer/> */}
+            <Footer/>
         </div>
     )
 

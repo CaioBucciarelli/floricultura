@@ -1,14 +1,45 @@
+.section-produto {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 20px;
+}
+
 .produto {
+    position: relative;
     width: 240px;
     display: flex;
     flex-direction: column;
     text-align: center;
     padding: 20px;
     background: #ccc;
-    border-radius: 8px 8px 0px 0px;
+    border-radius: 8px;
 }
 
 .img-produto {
     width: 200px;
-    height: 200px   ;
+    height: 200px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.preco-produto {
+    position: absolute;
+    background: #fff;
+    top: 30px;
+    border-radius: 0px 5px 5px 0px;
+    padding: 5px 5px 5px 10px;
+}
+
+.btn-produto {
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #fff;
+    padding: 10px 0px;
+    border-radius: 5px;
+    color: #000;
+}
+
+.btn-produto:hover{
+    background: rgb(128, 128, 128);
+    color: #fff;
 }

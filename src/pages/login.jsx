@@ -1,4 +1,5 @@
 import Menu from "./menu"
+import Log from "../interpolacao/login"
 import "../css/style.css"
 
 function Login(){
@@ -11,4 +12,4 @@ function Login(){
 
 }
 
-export default Login
+export default Login;
